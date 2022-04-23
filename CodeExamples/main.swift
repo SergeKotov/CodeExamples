@@ -5,7 +5,8 @@
 //  Created by Serge Kotov on 21.04.2022.
 //
 
-import Foundation
+// Run the Rock, Scissors, Paper Game session
 
-print("Hello, World!")
+let rpsGame = RPSGame(maxTurns: 9)
+rpsGame.run()
 

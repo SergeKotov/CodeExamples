@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		360D8A572811B6DD0086B12B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D8A562811B6DD0086B12B /* main.swift */; };
+		360D8A5E28128FE70086B12B /* RPSGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D8A5D28128FE70086B12B /* RPSGame.swift */; };
+		360D8A61281300D10086B12B /* Randoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D8A60281300D10086B12B /* Randoms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		360D8A532811B6DD0086B12B /* CodeExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeExamples; sourceTree = BUILT_PRODUCTS_DIR; };
 		360D8A562811B6DD0086B12B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		360D8A5D28128FE70086B12B /* RPSGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSGame.swift; sourceTree = "<group>"; };
+		360D8A60281300D10086B12B /* Randoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randoms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				360D8A562811B6DD0086B12B /* main.swift */,
+				360D8A5D28128FE70086B12B /* RPSGame.swift */,
+				360D8A5F281300A20086B12B /* Library */,
 			);
 			path = CodeExamples;
+			sourceTree = "<group>";
+		};
+		360D8A5F281300A20086B12B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				360D8A60281300D10086B12B /* Randoms.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				360D8A572811B6DD0086B12B /* main.swift in Sources */,
+				360D8A5E28128FE70086B12B /* RPSGame.swift in Sources */,
+				360D8A61281300D10086B12B /* Randoms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
